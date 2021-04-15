@@ -48,7 +48,7 @@ haar_cascade= cv2.CascadeClassifier('C://Users/PC/Downloads/haarcascade_frontalf
 
 
 faces_rects = haar_cascade.detectMultiScale(imgc, scaleFactor = 1.1, minNeighbors = 12);
-print('How many demented faces: ', len(faces_rects))
+print('How many faces: ', len(faces_rects))
 
 
 # In[9]:
